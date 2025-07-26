@@ -6,12 +6,12 @@
 
     <!-- Meta-Tags für die Vorschau in WhatsApp & Co. -->
     <meta property="og:title" content="Einladung: Sebi & Tim werden 4*!" />
-    <meta property="og:description" content="Wir feiern am 16.08.2025 in Borchen. Seid ihr dabei?" />
+    <meta property="og:description" content="Du bist zu unserer Party eingeladen!" />
     <meta property="og:image" content="https://jheymann85.github.io/einladung_sebi_tim/sebi_tim.jpg" />
     <meta property="og:url" content="https://jheymann85.github.io/einladung_sebi_tim/" />
     <meta property="og:type" content="website" />
 
-    <title>Einladung zum 40. Geburtstag</title>
+    <title>Einladung zum 4. Geburtstag</title>
     
     <!-- Tailwind CSS für das Layout -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -19,104 +19,104 @@
     <!-- Google Fonts für die passende Typografie -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-        /* Eigene Farb- und Schriftdefinitionen, inspiriert von der Einladung */
+        /* Eigene Farb- und Schriftdefinitionen für das Kindergeburtstags-Design */
         body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #FFF7F0; /* Heller, warmer Pfirsich-Ton */
+            font-family: 'Kalam', cursive;
+            background-color: #f0f9ff; /* Ein sehr helles Himmelblau */
         }
-        .font-heavy {
-            font-weight: 900;
+        h1, h2, h3, .font-display {
+            font-family: 'Luckiest Guy', cursive;
+            letter-spacing: 2px;
         }
-        .text-brand-red {
-            color: #C0392B; /* Ein kräftiges, warmes Rot */
+        .bg-brand-yellow { background-color: #f1c40f; }
+        .text-brand-yellow { color: #f1c40f; }
+        .bg-brand-red { background-color: #e74c3c; }
+        .text-brand-red { color: #e74c3c; }
+        .bg-brand-green { background-color: #2ecc71; }
+        .text-brand-green { color: #2ecc71; }
+        .bg-brand-blue { background-color: #3498db; }
+        .text-brand-blue { color: #3498db; }
+        
+        .card {
+            border: 4px dashed #3498db;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 20px;
+            width: 100%;
         }
-        .bg-brand-red {
-            background-color: #C0392B;
+        .form-input {
+            border: 2px solid #bdc3c7;
+            border-radius: 10px;
+            padding: 0.75rem;
+            font-size: 1.1rem;
         }
-        .border-brand-red {
-            border-color: #C0392B;
+        .form-input:focus {
+            outline: none;
+            border-color: #f1c40f;
+            box-shadow: 0 0 0 3px rgba(241, 196, 15, 0.4);
         }
-        .ring-brand-red {
-            --tw-ring-color: #C0392B;
+        .submit-button {
+            font-family: 'Luckiest Guy', cursive;
+            border-radius: 50px;
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+            color: white;
+            transition: transform 0.2s;
         }
-        .bg-brand-mint {
-            background-color: #E0F2E9; /* Ein sanftes Mintgrün */
+        .submit-button:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
-<body class="text-gray-800 antialiased">
+<body class="antialiased">
 
-    <!-- Hauptcontainer -->
-    <div class="container mx-auto max-w-2xl p-4 md:p-8 my-8">
-        <div class="bg-white rounded-2xl shadow-2xl overflow-hidden relative">
+    <!-- Hauptcontainer als Einladungskarte mit extra Padding am Ende für mobiles Scrolling -->
+    <div class="container mx-auto max-w-2xl p-4 md:p-8 pb-24">
+        <div class="card relative">
+            <div class="text-center">
+                <h2 class="text-4xl text-brand-blue">Du bist eingeladen!</h2>
+                <h1 class="text-5xl md:text-6xl text-brand-red mt-4">Sebi & Tim's Party!</h1>
+                <p class="text-2xl text-gray-600 mt-2">Wir werden 4* Jahre alt!</p>
+                <p class="text-sm text-gray-500 mt-1">*nur die Anzahl der Jahrzehnte</p>
+            </div>
+
+            <!-- Bild -->
+            <div class="my-8">
+                <img src="https://jheymann85.github.io/einladung_sebi_tim/sebi_tim.jpg" 
+                     alt="Foto von Sebi und Tim"
+                     class="mx-auto rounded-lg shadow-lg transform -rotate-3 border-4 border-white">
+            </div>
             
-            <!-- Girlande SVG -->
-            <div class="absolute top-0 left-0 w-full h-20 overflow-hidden z-10">
-                <svg width="100%" height="80" viewBox="0 0 100 20" preserveAspectRatio="none">
-                    <path d="M0,0 L5,15 L10,0 Z" fill="#3498db" />
-                    <path d="M10,0 L15,15 L20,0 Z" fill="#e74c3c" />
-                    <path d="M20,0 L25,15 L30,0 Z" fill="#f1c40f" />
-                    <path d="M30,0 L35,15 L40,0 Z" fill="#2ecc71" />
-                    <path d="M40,0 L45,15 L50,0 Z" fill="#9b59b6" />
-                    <path d="M50,0 L55,15 L60,0 Z" fill="#3498db" />
-                    <path d="M60,0 L65,15 L70,0 Z" fill="#e74c3c" />
-                    <path d="M70,0 L75,15 L80,0 Z" fill="#f1c40f" />
-                    <path d="M80,0 L85,15 L90,0 Z" fill="#2ecc71" />
-                    <path d="M90,0 L95,15 L100,0 Z" fill="#9b59b6" />
-                </svg>
-            </div>
+            <div class="my-8 text-center text-6xl">🎈🎉🎂</div>
 
-            <!-- Header-Bereich mit Bild -->
-            <div class="bg-brand-mint text-center p-8 pt-16">
-                <img src="https://jheymann85.github.io/einladung_sebi_tim/sebi_tim.jpg" alt="Foto von Sebi und Tim" class="w-48 h-48 mx-auto rounded-full object-cover shadow-lg border-4 border-white">
-            </div>
-
-            <!-- Titel -->
-            <div class="text-center pt-10 px-4">
-                 <h1 class="text-5xl md:text-7xl font-heavy text-brand-red uppercase tracking-tight">Sebi und Tim werden 4*</h1>
-                 <p class="text-sm text-gray-500 mt-2">*nur die Anzahl der Jahrzehnte</p>
-            </div>
-
-            <!-- Hauptinhalt -->
-            <div class="p-6 md:px-12 md:pb-12">
-                
-                <!-- Einladungstext -->
-                <div class="text-center mt-6">
-                    <p class="text-lg max-w-2xl mx-auto text-gray-700">
-                        Wir schmeißen eine Party und ihr seid herzlich eingeladen, mit uns diesen runden Geburtstag zu feiern!
-                    </p>
+            <!-- Details zur Feier -->
+            <div class="mt-8 space-y-6 text-lg text-center">
+                <div class="p-4 bg-yellow-100 rounded-lg">
+                    <h3 class="font-display text-2xl text-yellow-800">Wann?</h3>
+                    <p class="mt-1 font-bold">Samstag, 16. August 2025, ab 18:30 Uhr</p>
                 </div>
-
-                <hr class="my-10 border-t border-gray-200">
-
-                <!-- Details zur Feier -->
-                <div class="space-y-8">
-                    <div class="text-center">
-                        <h3 class="font-heavy text-2xl text-brand-red">Wann?</h3>
-                        <p class="mt-2 text-lg">Samstag, 16. August 2025, ab 18:30 Uhr</p>
-                    </div>
-                    <div class="text-center">
-                        <h3 class="font-heavy text-2xl text-brand-red">Wo?</h3>
-                        <p class="mt-2 text-lg">Kastanienweg 29, 33178 Borchen</p>
-                    </div>
-                    <div class="text-center">
-                         <h3 class="font-heavy text-2xl text-brand-red">Es gibt natürlich...</h3>
-                         <p class="mt-2 text-5xl">🍔 & 🍹 & 🍷</p>
-                         <p class="mt-2 text-lg text-gray-700">Für leckere Burger ist gesorgt. Zusätzlich gibt es eine Cocktailbar, Wein und natürlich auch andere kühle Getränke. Bringt einfach gute Laune mit!</p>
-                    </div>
-                    <div class="text-center">
-                         <h3 class="font-heavy text-2xl text-brand-red">Parken</h3>
-                         <p class="mt-2 text-lg text-gray-700">Parkmöglichkeiten für euer Dreirad findet ihr am Friedhof (Einfahrt Kastanienweg).</p>
-                    </div>
+                <div class="p-4 bg-blue-100 rounded-lg">
+                    <h3 class="font-display text-2xl text-blue-800">Wo?</h3>
+                    <p class="mt-1 font-bold">Kastanienweg 29, 33178 Borchen</p>
                 </div>
+                <div class="p-4 bg-green-100 rounded-lg">
+                    <h3 class="font-display text-2xl text-green-800">Was gibt's Leckeres?</h3>
+                    <p class="mt-1 font-bold">Burger 🍔, Cocktails 🍹, Wein 🍷 und viel Spaß!</p>
+                </div>
+                 <div class="p-4 bg-red-100 rounded-lg">
+                    <h3 class="font-display text-2xl text-red-800">Parken?</h3>
+                    <p class="mt-1 font-bold">Dein Dreirad kannst du am Friedhof abstellen.</p>
+                </div>
+            </div>
 
-                <!-- Google Maps Karte -->
-                <div class="mt-12">
-                    <h3 class="font-heavy text-2xl text-brand-red text-center mb-4">Anfahrt</h3>
-                    <div class="rounded-lg overflow-hidden shadow-lg border border-gray-200">
+            <!-- Anfahrt Karte -->
+            <div class="mt-8">
+                <div class="p-4 bg-purple-100 rounded-lg text-center">
+                    <h3 class="font-display text-2xl" style="color: #6b21a8;">Hier findest du uns!</h3>
+                    <div class="mt-4 rounded-lg overflow-hidden border-4" style="border-color: #e9d5ff;">
                         <iframe
                             class="w-full"
                             height="350"
@@ -128,55 +128,41 @@
                         </iframe>
                     </div>
                 </div>
-
-                <hr class="my-10 border-t border-gray-200">
-
-                <!-- RSVP Formular -->
-                <div class="text-center">
-                    <h2 class="text-4xl font-heavy text-brand-red">Wir freuen uns auf Euch!</h2>
-                    <p class="mt-4 text-lg text-gray-700">Bitte gebt uns bis zum 02. August 2025 Bescheid, ob ihr dabei sein könnt.</p>
-                    
-                    <form id="rsvp-form" class="mt-8 max-w-lg mx-auto text-left">
-                        <div class="space-y-6">
-                            <!-- Name -->
-                            <div>
-                                <label for="name" class="block text-sm font-medium text-gray-700">Name / Namen</label>
-                                <input type="text" name="name" id="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand-red focus:ring-brand-red sm:text-sm h-11 px-3">
-                            </div>
-                            
-                            <!-- Anzahl Personen -->
-                            <div>
-                                <label for="guests" class="block text-sm font-medium text-gray-700">Anzahl der Personen</label>
-                                <input type="number" name="guests" id="guests" min="1" value="1" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand-red focus:ring-brand-red sm:text-sm h-11 px-3">
-                            </div>
-
-                            <!-- Status -->
-                            <fieldset>
-                                <div class="flex items-center justify-center space-x-6">
-                                    <div class="flex items-center">
-                                        <input id="attending-yes" name="status" type="radio" value="Zusage" required class="h-4 w-4 border-gray-300 text-brand-red focus:ring-brand-red">
-                                        <label for="attending-yes" class="ml-3 block text-sm font-medium text-gray-900">Sind dabei!</label>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <input id="attending-no" name="status" type="radio" value="Absage" class="h-4 w-4 border-gray-300 text-brand-red focus:ring-brand-red">
-                                        <label for="attending-no" class="ml-3 block text-sm font-medium text-gray-900">Leider nicht.</label>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </div>
-                        
-                        <!-- Senden-Button -->
-                        <div class="mt-10 text-center">
-                            <button type="submit" id="submit-button" class="inline-flex items-center justify-center rounded-md border border-transparent bg-brand-red px-10 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-brand-red focus:ring-offset-2">
-                                Antwort senden
-                            </button>
-                        </div>
-                    </form>
-                    
-                    <!-- Erfolgs-/Fehlermeldungen -->
-                    <div id="form-message" class="mt-6 text-center text-lg font-medium" role="alert"></div>
-                </div>
             </div>
+
+
+            <!-- RSVP Formular -->
+            <div class="mt-12 text-center">
+                <h2 class="text-4xl text-brand-blue">Gib uns Bescheid!</h2>
+                <p class="mt-2 text-lg text-gray-700">Sag uns bis zum 02. August 2025, ob du kommst.</p>
+                
+                <form id="rsvp-form" class="mt-8 max-w-lg mx-auto text-left space-y-4">
+                    <div>
+                        <label for="name" class="font-bold text-gray-700">Dein Name:</label>
+                        <input type="text" name="name" id="name" required class="mt-1 block w-full form-input">
+                    </div>
+                    <div>
+                        <label for="guests" class="font-bold text-gray-700">Wie viele Leute seid ihr?</label>
+                        <input type="number" name="guests" id="guests" min="1" value="1" required class="mt-1 block w-full form-input">
+                    </div>
+                    <div class="flex items-center justify-center space-x-6 pt-4 text-lg">
+                        <label class="flex items-center">
+                            <input type="radio" name="status" value="Zusage" required class="h-6 w-6 text-brand-green focus:ring-brand-green">
+                            <span class="ml-2 font-bold">Juhu, dabei!</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="status" value="Absage" class="h-6 w-6 text-brand-red focus:ring-brand-red">
+                            <span class="ml-2 font-bold">Schade, leider nicht.</span>
+                        </label>
+                    </div>
+                    <div class="pt-6 text-center">
+                        <button type="submit" id="submit-button" class="submit-button bg-brand-green">Antwort abschicken!</button>
+                    </div>
+                </form>
+                
+                <div id="form-message" class="mt-6 text-center text-2xl font-display" role="alert"></div>
+            </div>
+
         </div>
     </div>
 
@@ -191,9 +177,9 @@
             
             const originalButtonText = submitButton.textContent;
             submitButton.disabled = true;
-            submitButton.textContent = 'Wird gesendet...';
+            submitButton.textContent = 'Moment...';
             formMessage.textContent = '';
-            formMessage.className = 'mt-6 text-center text-lg font-medium';
+            formMessage.className = 'mt-6 text-center text-2xl font-display';
 
             const formData = new FormData(form);
             const data = {
@@ -207,7 +193,7 @@
 
             fetch(SCRIPT_URL, {
                 method: 'POST',
-                mode: 'no-cors', // Wichtig bei Google Scripts, um CORS-Fehler zu vermeiden
+                mode: 'no-cors',
                 cache: 'no-cache',
                 headers: {
                     'Content-Type': 'application/json'
@@ -215,13 +201,13 @@
                 body: JSON.stringify(data)
             })
             .then(() => {
-                formMessage.textContent = 'Vielen Dank, wir haben eure Antwort erhalten!';
-                formMessage.classList.add('text-green-600');
+                formMessage.textContent = 'Super, danke!';
+                formMessage.classList.add('text-brand-green');
                 form.reset();
             })
             .catch(error => {
                 console.error('Fehler:', error);
-                formMessage.textContent = 'Ohje, da ist was schiefgelaufen. Versucht es bitte später nochmal.';
+                formMessage.textContent = 'Oh nein, Fehler!';
                 formMessage.classList.add('text-brand-red');
             })
             .finally(() => {
